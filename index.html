@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Total Solution 全方位的解決方案 - 當您感到缺乏靈感、時間緊迫、前途茫茫時，我們願與您攜手前行，提供精緻策劃、代購代工、專業編修、全程安全保密的全方位一站式解決方案！">
+    <meta name="keywords" content="研究論文,代購代工,專業編修,企劃書,資料分析,文件翻譯">
+    <title>Lab 2 Pub - 首頁</title>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&family=Source+Code+Pro:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Lab 2 Pub</h1>
+                </div>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav-list">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="lab2pub.html" class="nav-link">Lab 2 Pub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">聯絡方式</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">更多 ▼</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#services" class="dropdown-link">服務項目</a></li>
+                                <li><a href="#about" class="dropdown-link">關於我們</a></li>
+                                <li><a href="#contact" class="dropdown-link">聯絡我們</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2 class="hero-subtitle">坐而言不如起而行</h2>
+                        <h1 class="hero-title">A Total Solution</h1>
+                        <h3 class="hero-title-zh">全方位的解決方案</h3>
+                        <p class="hero-description">
+                            當您感到缺乏靈感、時間緊迫、前途茫茫時，我們願與您攜手前行，
+                            提供精緻策劃、代購代工、專業編修、全程安全保密的全方位一站式解決方案！
+                        </p>
+                        <div class="hero-cta">
+                            <button class="cta-button" onclick="scrollToContact()">立即諮詢</button>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/hero-image.jpg" alt="專業解決方案" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Statement Section -->
+        <section class="problem-section">
+            <div class="container">
+                <h2 class="section-title">我們的團隊致力於解決您可能遇到的問題：</h2>
+                <div class="problem-grid">
+                    <div class="problem-item">
+                        <div class="problem-icon">📚</div>
+                        <p>研究論文方向不明確</p>
+                    </div>
+                    <div class="problem-item">
+                        <div class="problem-icon">💡</div>
+                        <p>研究想法豐富但細節執行困難</p>
+                    </div>
+                    <div class="problem-item">
+                        <div class="problem-icon">⏰</div>
+                        <p>本業繁忙無暇研究和報告</p>
+                    </div>
+                    <div class="problem-item">
+                        <div class="problem-icon">📈</div>
+                        <p>在職進修迫切希望升職</p>
+                    </div>
+                    <div class="problem-item">
+                        <div class="problem-icon">✍️</div>
+                        <p>表達不佳、邏輯不通順</p>
+                    </div>
+                    <div class="problem-item">
+                        <div class="problem-icon">🌐</div>
+                        <p>外語門檻等......種種困境</p>
+                    </div>
+                </div>
+                <p class="problem-conclusion">
+                    讓我們以專業的眼光和豐富的經驗，為您提供量身定製的解決方案，
+                    讓您專注於您的研究目標，無後顧之憂。
+                    歡迎隨時諮詢，讓我們一同開創更美好的學術之路！
+                </p>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title">我們的服務</h2>
+                
+                <!-- Plan & Design Service -->
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3 class="service-title">Plan & Design</h3>
+                        <h4 class="service-subtitle">研究方向內容規劃設計</h4>
+                        <div class="service-details">
+                            <h5>服務項目：</h5>
+                            <ul class="service-list">
+                                <li>儀器/材料/代工諮詢</li>
+                                <li>實驗設計與規劃</li>
+                                <li>研究方法指導</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-icon">
+                        <div class="icon-container">📋</div>
+                    </div>
+                </div>
+
+                <!-- Publication Service -->
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3 class="service-title">Publication</h3>
+                        <h4 class="service-subtitle">企劃書/論文/投稿文件之編修指導</h4>
+                        <h4 class="service-subtitle">簡報/圖表/海報/問卷設計製作</h4>
+                        <div class="service-details">
+                            <h5>服務項目：</h5>
+                            <ul class="service-list">
+                                <li>資料分析</li>
+                                <li>文獻整理</li>
+                                <li>摘要/目錄製作</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-icon">
+                        <div class="icon-container">📝</div>
+                    </div>
+                </div>
+
+                <!-- Additional Services -->
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3 class="service-title">Additional Services</h3>
+                        <h4 class="service-subtitle">文件翻譯</h4>
+                        <div class="service-details">
+                            <h5>服務項目：</h5>
+                            <ul class="service-list">
+                                <li>格式調整</li>
+                                <li>其他加值服務</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-icon">
+                        <div class="icon-container">🌍</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" id="contact">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">準備開始您的學術之旅嗎？</h2>
+                    <p class="cta-description">
+                        立即與我們聯繫，獲得專業的諮詢服務，讓您的學術之路更加順利！
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="cta-button primary">立即諮詢</a>
+                        <a href="tel:+886123456789" class="cta-button secondary">電話諮詢</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Lab 2 Pub</h3>
+                    <p>您專業的學術研究夥伴</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速連結</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="lab2pub.html">Lab 2 Pub</a></li>
+                        <li><a href="contact.html">聯絡方式</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>聯絡資訊</h4>
+                    <p>Email: ianyhchentw@gmail.com</p>
+                    <p>週一至週五 9:00-20:00</p>
+                    <p>週末休息</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lab 2 Pub. 版權所有。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

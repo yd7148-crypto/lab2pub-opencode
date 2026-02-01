@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lab 2 Pub 聯絡方式 - 專業學術研究諮詢服務">
+    <meta name="keywords" content="聯絡方式,學術諮詢,研究指導,論文指導">
+    <title>聯絡方式 - Lab 2 Pub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&family=Source+Code+Pro:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Lab 2 Pub</h1>
+                </div>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="lab2pub.html" class="nav-link">Lab 2 Pub</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="contact.html" class="nav-link">聯絡方式</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">更多 ▼</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html#services" class="dropdown-link">服務項目</a></li>
+                                <li><a href="#about" class="dropdown-link">關於我們</a></li>
+                                <li><a href="#contact" class="dropdown-link">聯絡我們</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content" id="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">聯絡方式</h1>
+                <p class="page-subtitle">讓我們協助您開啟學術研究的新篇章</p>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Details -->
+                    <div class="contact-info">
+                        <h2 class="section-title">聯絡資訊</h2>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h3>電子郵件</h3>
+                                <a href="mailto:ianyhchentw@gmail.com">ianyhchentw@gmail.com</a>
+                                <p>我們會在24小時內回覆您的郵件</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">⏰</div>
+                            <div class="contact-details">
+                                <h3>服務時間</h3>
+                                <p>週一至週五：上午 9:00 - 晚上 8:00</p>
+                                <p>週末：休息</p>
+                                <p>我們會在營業時間內盡快回覆您的諮詢</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>地址</h3>
+                                <p>布里契爾大道 1234 號</p>
+                                <p>我們主要提供線上諮詢服務，方便與您交流</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">💬</div>
+                            <div class="contact-details">
+                                <h3>其他聯絡方式</h3>
+                                <p>您也可以通過以下方式與我們聯繫：</p>
+                                <ul>
+                                    <li>填寫網站表單（下方）</li>
+                                    <li>透過社交媒體私訊</li>
+                                    <li>推薦人介紹</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <h2 class="section-title">立即諮詢</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">姓名 *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">電子郵件 *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">聯絡電話</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">感興趣的服務 *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">請選擇服務項目</option>
+                                    <option value="planning">研究規劃設計</option>
+                                    <option value="publication">論文編修指導</option>
+                                    <option value="translation">文件翻譯服務</option>
+                                    <option value="consultation">學術諮詢</option>
+                                    <option value="other">其他服務</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="timeline">預期時間</label>
+                                <select id="timeline" name="timeline">
+                                    <option value="">請選擇時間範圍</option>
+                                    <option value="urgent">緊急（1-2週）</option>
+                                    <option value="soon">盡快（1個月內）</option>
+                                    <option value="normal">正常（1-3個月）</option>
+                                    <option value="flexible">時間彈性</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">詳細需求描述 *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="請詳細描述您的需求、研究背景或遇到的問題..."></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="source">您是如何知道我們的？</label>
+                                <select id="source" name="source">
+                                    <option value="">請選擇</option>
+                                    <option value="search">搜尋引擎</option>
+                                    <option value="social">社交媒體</option>
+                                    <option value="recommend">朋友推薦</option>
+                                    <option value="academic">學術界</option>
+                                    <option value="other">其他</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">我同意隱私政策，並同意 Lab 2 Pub 使用我的資訊聯繫我 *</label>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">送出諮詢</button>
+                            
+                            <p class="form-note">
+                                * 為必填項目。我們承諾保護您的個人隱私，資料僅用於提供服務之目的。
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">常見問題</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3 class="faq-question">你們提供哪些服務？</h3>
+                        <p class="faq-answer">我們提供研究方向規劃、論文編修、資料分析、文件翻譯等全方位學術支援服務。</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3 class="faq-question">服務收費如何計算？</h3>
+                        <p class="faq-answer">收費標準根據服務複雜度、時間緊急程度和具體需求而定，我們會提供詳細報價。</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3 class="faq-question">諮詢流程是什麼？</h3>
+                        <p class="faq-answer">首先通過表單或郵件聯繫我們，了解您的需求後，安排專業顧問與您進行詳細諮詢。</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3 class="faq-question">服務保密性如何？</h3>
+                        <p class="faq-answer">我們嚴格保密所有客戶資訊和研究內容，簽署保密協議確保您的權益。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">準備開始您的學術之旅嗎？</h2>
+                    <p class="cta-description">
+                        不要讓研究障礙阻礙您的進步。立即聯繫我們，獲得專業的學術支援！
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="index.html" class="cta-button primary">返回首頁</a>
+                        <a href="tel:+886123456789" class="cta-button secondary">電話諮詢</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Lab 2 Pub</h3>
+                    <p>您專業的學術研究夥伴</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速連結</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="lab2pub.html">Lab 2 Pub</a></li>
+                        <li><a href="contact.html">聯絡方式</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>聯絡資訊</h4>
+                    <p>Email: ianyhchentw@gmail.com</p>
+                    <p>週一至週五 9:00-20:00</p>
+                    <p>週末休息</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lab 2 Pub. 版權所有。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
